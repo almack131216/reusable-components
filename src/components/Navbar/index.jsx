@@ -5,6 +5,7 @@ const Navbar = () => {
     <>
       <header>
         <h1 className='logo'>Logo</h1>
+        <input type='checkbox' id='nav-toggle' className='nav-toggle'></input>
         <nav>
           <ul>
             <li>
@@ -18,7 +19,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <label for='nav-toggle' className='nav-toggle-label'>
+        <label htmlFor='nav-toggle' className='nav-toggle-label'>
           <span></span>
         </label>
       </header>
