@@ -90,10 +90,10 @@ ul {
   >li {
     padding: 0;
 
-    &::before {
-      content: "•";
-      padding: 0 var(--p1);
-    }
+    // &::before {
+    //   content: "•";
+    //   padding: 0 var(--p1);
+    // }
 
     >ol {
       margin: var(--p1);
