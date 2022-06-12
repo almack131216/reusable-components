@@ -1,0 +1,16 @@
+// ------ mixins ------
+
+@mixin text-shadow($type: p) {
+    $offset-x:0;
+    $offset-y:2px;
+    $blur: 2px;
+    $color: rgba(0,0,0,0.28);
+
+    @if($type == h1){
+        $blur: 4px;
+        $color: rgba(0,0,0,0.21);
+    }
+
+    // offset-x | offset-y | blur-radius | color
+    text-shadow: $offset-x $offset-y $blur $color
+}

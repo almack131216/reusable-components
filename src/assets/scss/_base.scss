@@ -1,0 +1,116 @@
+/* _base.scss */
+
+// VARS
+// Breakpoints
+$bp-gt-md: "screen and (min-width: 992px)"; // from 992px
+$bp-lt-md: "screen and (max-width: 991px)"; // up to 991px
+$bp-gt-sm: "screen and (min-width: 768px)"; // from 768px
+$bp-lt-sm: "screen and (max-width: 767px)"; // up to 767px
+$bp-gt-mobile: "screen and (min-width: 640px)"; // from 640px
+$bp-lt-mobile: "screen and (max-width: 639px)"; // up to 639px
+$bp-lt-xs: "screen and (max-width: 479px)"; // up to 479px
+$bp-lt-xxs: "screen and (max-width: 399px)"; // up to 399px
+
+:root {
+    /* colors */
+    --color-bg-body: #fff;
+    --color-navbar: #fff;
+    --color-navbar-text: #BA8748;
+    --color-primary: #BA8748;
+    --color-secondary: #a96fb8;
+    --color-swatch-1: #C79C84;
+    --color-swatch-2: #DCA564;
+    --color-swatch-3: #83ABAD;
+    --color-swatch-4: #B86D73;
+    --color-swatch-5: #3D5248;
+    --color-heading: #000;
+    --color-text: #444;
+    --color-border: #ccc;
+
+    /* fonts  */
+    --font-header: "Montserrat Bold", sans-serif;
+    --font-header-semibold: "Montserrat SemiBold", sans-serif;
+    --font-body: "Montserrat Regular", sans-serif;
+    --text-small: 0.7rem;
+    --letter-spacing: 0.1rem;
+
+    /* rest of the vars */
+    --transition-speed: 0.5s;
+    --transition: var(--transition-speed) ease-in-out all;
+    --p1: 10px;
+    --p2: 20px;
+    --p3: 30px;
+    --max-width: 1120px;
+    --border-radius: 5px;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --opacity-semi: 0.6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg-body);
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    margin: 0;
+    padding: 0;
+}
+
+.color-primary {
+    color: var(--color-primary)
+}
+
+.color-secondary {
+    color: var(--color-secondary)
+}
+
+.bg-color-heading {
+    background-color: var(--color-heading)
+}
+
+.bg-color-text {
+    background-color: var(--color-text)
+}
+
+.bg-color-primary {
+    background-color: var(--color-primary)
+}
+
+.bg-color-secondary {
+    background-color: var(--color-secondary)
+}
+
+.bg-color-swatch-1 {
+    background-color: var(--color-swatch-1)
+}
+
+.bg-color-swatch-2 {
+    background-color: var(--color-swatch-2)
+}
+
+.bg-color-swatch-3 {
+    background-color: var(--color-swatch-3)
+}
+
+.bg-color-swatch-4 {
+    background-color: var(--color-swatch-4)
+}
+
+.bg-color-swatch-5 {
+    background-color: var(--color-swatch-5)
+}
